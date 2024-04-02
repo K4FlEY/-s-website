@@ -1,0 +1,281 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar img {
+    max-width: 100px;
+  }
+  
+  .navbar .menu-login {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+  }
+  
+  .search-bar {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .search-bar input[type="text"],
+  .search-bar input[type="submit"] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  .search-bar input[type="submit"] {
+    background-color: #afcf3c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 18%;
+  }
+  
+  .search-bar input[type="submit"]:hover {
+    background-color: #96a0ac;
+  }
+  
+  .topics {
+    list-style: none;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .topics li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 8px; /* Add border radius */
+    padding: 10px; /* Add padding */
+  }
+  
+  .topics a {
+    text-decoration: none;
+    color: #4f6174;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .topics a:hover {
+    color: #1b5a9c;
+  }
+  
+
+
+
+  .Aktuelt {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.Aktuelt h2 span {
+    color: #007bff;
+}
+
+.article-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article {
+    flex: 0 1 calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.article img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.article h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.article p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.date {
+    display: block;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+
+a{
+    text-decoration: none;
+    color: #aa9355;
+}
+
+
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+
+.footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info address {
+    font-size: 0.9rem;
+}
+
+.contact-info address div {
+    margin-bottom: 10px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.site-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cpcredits {
+    font-size: 0.9rem;
+}
+
+#cookieinfobar {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.cookietext {
+    font-size: 0.8rem;
+}
+
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info,
+.social-media,
+.site-info {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.address,
+.email,
+.phone,
+.account {
+    margin-bottom: 10px;
+}
+
+.social a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.social svg {
+    width: 24px;
+    height: 24px;
+}
+
+.cpcredits a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cookietext {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-info,
+    .social-media,
+    .site-info {
+        flex: 1 1 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+
+
+/* it kurs css */
+
+.it-kurs-info{
+    background: hsla(160, 15%, 88%, 0.822);
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
